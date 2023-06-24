@@ -6,8 +6,8 @@ CC=gcc
 CFLAGS=-Wall
 
 ###### Alterar Dependências e Objetos #####
-DEPS = user_interface.h acounting.h #ficheiros .h - Colocar todos
-OBJ = main.o user_interface.o acounting.o #objetos (.o). Um por ficheiro .c da Aplicação
+DEPS = user_interface.h accounting.h #ficheiros .h - Colocar todos
+OBJ = main.o user_interface.o accounting.o #objetos (.o). Um por ficheiro .c da Aplicação
 ##########################################
 
 %.o: %.c $(DEPS)

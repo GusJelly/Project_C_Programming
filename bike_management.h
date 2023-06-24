@@ -3,5 +3,14 @@
 
 // Code goes below this line:
 
+typedef struct Bike {
+    char* brand;
+    char* model;
+    char* color;
+    char* weight;
+    char* type;  // The type can be any common bike type (mountain, city, ...)
+    int size;
+    float price;
+} Bike;
 
 #endif
