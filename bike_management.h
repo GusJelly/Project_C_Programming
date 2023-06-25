@@ -15,17 +15,17 @@ typedef struct Bike {
 
 typedef struct MountainBike {
     Bike bike;
-    int suspension_travel;
+    int suspension_travel;  // Suspension travel specific to mountain bikes
 } MountainBike;
 
 typedef struct CityBike {
     Bike bike;
-    int basket_capacity;
+    int basket_capacity;  // Basket capacity specific to city bikes
 } CityBike;
 
 typedef struct RoadBike {
     Bike bike;
-    int number_of_gears;
+    int number_of_gears;  // Number of gears specific to road bikes
 } RoadBike;
 
 #endif
