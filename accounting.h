@@ -5,6 +5,8 @@
 
 // Code goes below this line:
 
+typedef struct Purchase Purchase;
+
 // Define the structure for a Client
 typedef struct Client {
     char* name;
