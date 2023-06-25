@@ -20,7 +20,6 @@ typedef struct Client {
     char* address;
     char* phone;
     Purchase* purchases;
-    Bike* purchase_history;
 } Client;
 
 #endif

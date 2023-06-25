@@ -13,4 +13,19 @@ typedef struct Bike {
     float price;
 } Bike;
 
+typedef struct MountainBike {
+    Bike bike;
+    int suspension_travel;
+} MountainBike;
+
+typedef struct CityBike {
+    Bike bike;
+    int basket_capacity;
+} CityBike;
+
+typedef struct RoadBike {
+    Bike bike;
+    int number_of_gears;
+} RoadBike;
+
 #endif
