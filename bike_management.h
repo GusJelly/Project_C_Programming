@@ -4,6 +4,7 @@
 // Code goes below this line:
 
 typedef struct Bike {
+    int id;
     char* brand;
     char* model;
     char* color;
@@ -13,6 +14,7 @@ typedef struct Bike {
     float price;
 } Bike;
 
+// Each of these structs inherit properties from the original Bike struct
 typedef struct MountainBike {
     Bike bike;
     int suspension_travel;  // Suspension travel specific to mountain bikes
